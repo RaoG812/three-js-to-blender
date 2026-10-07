@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "threejs_json_importer"
+version = "1.21.0"
+name = "Three.js JSON Importer"
+tagline = "Import Three.js meshes and scene JSON into Blender"
+maintainer = "Local Developer"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

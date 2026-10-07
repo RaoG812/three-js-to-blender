@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Object",
+    "generator": "sample"
+  },
+  "geometries": [
+    {
+      "uuid": "geo-triangle",
+      "type": "BufferGeometry",
+      "data": {
+        "attributes": {
+          "position": {
+            "itemSize": 3,
+            "type": "Float32Array",
+            "array": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "normalized": false
+          },
+          "normal": {
+            "itemSize": 3,
+            "type": "Float32Array",
+            "array": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "normalized": false
+          },
+          "uv": {
+            "itemSize": 2,
+            "type": "Float32Array",
+            "array": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "normalized": false
+          }
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "uuid": "mat-yellow",
+      "type": "MeshStandardMaterial",
+      "name": "Sample Material",
+      "color": 16763904,
+      "roughness": 0.45,
+      "metalness": 0.1
+    }
+  ],
+  "object": {
+    "uuid": "scene-root",
+    "type": "Scene",
+    "name": "Three Scene",
+    "matrix": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "children": [
+      {
+        "uuid": "mesh-triangle",
+        "type": "Mesh",
+        "name": "Triangle",
+        "geometry": "geo-triangle",
+        "material": "mat-yellow",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}
